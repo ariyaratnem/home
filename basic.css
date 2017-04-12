@@ -12,8 +12,7 @@ h1
 	border-bottom: 1px solid red;
 } /* h1 */
 
-/* visited link */
-a:visited
+a
 {
     color: red;
-}
+} /* a */
