@@ -11,3 +11,9 @@ h1
 	color: red;
 	border-bottom: 1px solid red;
 } /* h1 */
+
+a
+{
+	font-family: monospace;
+	color: purple;
+} /* unvisited link */
