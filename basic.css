@@ -1,0 +1,13 @@
+body
+{
+	font-family: monospace;
+	color: blue;
+	background: white;
+	margin: 10%
+} /* body */
+
+h1
+{
+	color: red;
+	border-bottom: 1px solid red;
+} /* h1 */

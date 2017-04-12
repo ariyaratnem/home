@@ -1,0 +1,13 @@
+body
+{
+	margin: 5%;
+	font-family: sans-serif;
+	font-size: 200%;
+} /* body */
+
+dt
+{
+	font-weight: bold;
+	color: blue;
+	border-left: 4px solid salmon;
+} /* dt */
