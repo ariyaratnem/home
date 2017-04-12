@@ -13,5 +13,7 @@ h1
 } /* h1 */
 
 /* visited link */
-a:visited {
+a:visited
+{
     color: red;
+}
