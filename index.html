@@ -3,14 +3,18 @@
 	<head>
 		<title>Welcome</title>
 		<meta charset="UTF-8">
-<script type="text/javascript">
-<!--
-function displayLocalDate()
-{
-   var currentDate = new Date().toLocaleString();
-   alert("The current date (in local format) is \n" + currentDate + ".");
-} // end of function displayLocalDate()
-//-->
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var person = prompt("Please enter your name", "Harry Potter");
+    
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "! How are you today?";
+    }
 </script>
 	</head>
 	<body>
