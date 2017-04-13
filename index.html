@@ -5,11 +5,11 @@
 		<meta charset="UTF-8">
 <script type="text/javascript">
 <!--
-var currentTime = new Date()
-var month = currentTime.getMonth() + 1
-var day = currentTime.getDate()
-var year = currentTime.getFullYear()
-document.write(month + "/" + day + "/" + year)
+function displayLocalDate()
+{
+   var currentDate = new Date().toLocaleString();
+   alert("The current date (in local format) is \n" + currentDate + ".");
+} // end of function displayLocalDate()
 //-->
 </script>
 	</head>
