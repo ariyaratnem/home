@@ -1,1 +1,7 @@
-
+body
+{
+  font-family: monospace;
+  margin: 10%;
+  color: pink;
+  background: white;
+} /* body */
